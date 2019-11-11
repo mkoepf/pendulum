@@ -1,0 +1,8 @@
+[package]
+name = "pendulum"
+version = "0.1.0"
+authors = ["Michael Köpf <michael.koepf@cognotekt.com>"]
+edition = "2018"
+
+[dependencies]
+ode_solvers = "0.3.0"
