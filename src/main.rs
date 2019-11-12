@@ -4,6 +4,10 @@ use std::path::Path;
 use std::io::Write;
 use std::error::Error;
 
+mod settings;
+
+use settings::Settings;
+
 type Time = f64;
 type State = Vector2<f64>;
 
@@ -26,6 +30,8 @@ impl ode_solvers::System<State> for Parameters {
 /// x' = y
 /// y' = a*sin(x)
 fn main() {
+
+    let settings = Settings::new();
 
     let system = Parameters {a: -1.0};
 

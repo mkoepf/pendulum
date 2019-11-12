@@ -6,3 +6,5 @@ edition = "2018"
 
 [dependencies]
 ode_solvers = "0.3.0"
+config = "0.9"
+serde = { version = "1.0", features = ["derive"] }
