@@ -1,0 +1,5 @@
+[physical_parameters]
+g = 1.0
+
+[solver_parameters]
+x_end = 10.0
